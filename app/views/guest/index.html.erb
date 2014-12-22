@@ -4,11 +4,28 @@
 
     <h3>Graham Ramsey</h3>
 
-    <p class="grey">
-      A short description goes here...
+    <%= image_tag "graham-speaking.png" %>
+
+    <p>
+      I am a humanitarian, Apple fanatic, and chronic autodidact.
     </p>
 
-    <%= link_to "Resume", asset_path("resume.pdf"), target: "_blank" %>
+    <p>
+      I am passionate about using open source technologies to improve education and healthcare around the world.
+    </p>
+
+    <p>
+      Currently, I am super excited to be managing
+      <%= link_to "Grapefruit", "https://github.com/grapefruitdotlink/grapefruit", target: "_blank" %>,
+      the free education platform for everyone.
+    </p>
+
+    <p>
+      Drop me a line! <span class="email">g at graham dot li</span>
+    </p>
+
+    <%= link_to "Résumé", asset_path("resume.pdf"), class: "button", target: "_blank" %>
+    <%= link_to "Grapefruit &rarr;".html_safe, "https://grapefruit.link", class: "button success", target: "_blank" %>
 
   </div>
 
