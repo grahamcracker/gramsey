@@ -15,8 +15,11 @@ div.main{
       margin: 1.5em 0em;
     }
 
-    span.email{
+    span.contact{
       @include label($text-size: .8em, $bg: $aluminum);
+      a:link, a:hover, a:visited{
+        color: #eee;
+      }
     }
 
   }

@@ -4,28 +4,32 @@
 
     <h3>Graham Ramsey</h3>
 
-    <%= image_tag "graham-speaking.png" %>
+    <%= image_tag "graham-speaking-2.png" %>
 
     <p>
-      I am a humanitarian, Apple fanatic, and chronic autodidact.
-    </p>
-
-    <p>
+      I am a humanitarian, Apple fanatic, and chronic autodidact.<br/>
       I am passionate about using open source technologies to improve education and healthcare around the world.
     </p>
 
+    <p>This summer, I will be interning at <%= link_to 'Watsi', 'https://watsi.org/', target: "_blank" %>, a nonprofit healthcare startup
+    that I am super excited about!</p>
+
     <p>
-      Currently, I am super excited to be managing
+      Right now, I am managing
       <%= link_to "Grapefruit", "http://grapefruit.link", target: "_blank" %>,
       the free education platform for everyone.
+      The project was sponsored by Red Hat to present at <%= link_to 'SIGCSE 2015', 'http://sigcse2015.sigcse.org/', target: "_blank" %>,
+      so if you are there stop by and say hi!
     </p>
 
     <p>
-      Drop me a line! <span class="email">g at graham dot li</span>
+      Drop me a line!
+        <span class="contact">g at graham dot li</span>
+        <span class="contact"><%= link_to '@element119', 'https://twitter.com/element119', target: "_blank" %></span>
     </p>
 
     <%= link_to "Résumé", asset_path("resume.pdf"), class: "button", target: "_blank" %>
-    <%= link_to "Grapefruit &rarr;".html_safe, "http://grapefruit.link", class: "button success", target: "_blank" %>
+    <%= link_to "Grapefruit Project Blog &rarr;".html_safe, "http://grapefruit.link", class: "button success", target: "_blank" %>
 
   </div>
 
