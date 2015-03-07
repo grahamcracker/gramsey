@@ -38,6 +38,7 @@ gem 'spring',        group: :development
 gem 'capistrano'
 gem 'capistrano-rails'
 gem 'capistrano-rvm'
+gem 'capistrano-passenger'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
