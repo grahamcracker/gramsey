@@ -23,7 +23,7 @@ set :repo_url, 'https://github.com/grahamcracker/gramsey.git'
 # set :pty, true
 
 # Default value for :linked_files is []
-%w{config/secrets.yml}
+set :linked_files, %w{config/secrets.yml}
 
 # Default value for linked_dirs is []
 # set :linked_dirs, fetch(:linked_dirs, []).push('bin', 'log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', 'public/system')
