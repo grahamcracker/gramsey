@@ -18,8 +18,7 @@
       Right now, I am managing
       <%= link_to "Grapefruit", "http://grapefruit.link", target: "_blank" %>,
       the free education platform for everyone.
-      The project was sponsored by Red Hat to present at <%= link_to 'SIGCSE 2015', 'http://sigcse2015.sigcse.org/', target: "_blank" %>,
-      so if you are there stop by and say hi!
+      The project was sponsored by Red Hat to present at <%= link_to 'SIGCSE 2015', 'http://sigcse2015.sigcse.org/', target: "_blank" %>.
     </p>
 
     <p>
@@ -29,8 +28,14 @@
     </p>
 
     <%= link_to "Résumé", asset_path("resume.pdf"), class: "button", target: "_blank" %>
-    <%= link_to "Grapefruit Project Blog &rarr;".html_safe, "http://grapefruit.link", class: "button success", target: "_blank" %>
+    <%= link_to "Grapefruit Project &rarr;".html_safe, "http://grapefruit.link", class: "button success", target: "_blank" %>
+
+    <p class="small center">
+      Copyright <span class="copyleft">&copy;</span> <%= Time.now.year %> Graham Ramsey<br/>
+      <span class="jacob">4 8 15 16 23 42</span>
+    </p>
 
   </div>
+
 
 </div>
