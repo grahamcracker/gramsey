@@ -4,7 +4,7 @@
 # is considered to be the first unless any hosts have the primary
 # property set.  Don't declare `role :all`, it's a meta role.
 
-role :web, %w{104.236.210.129}
+role :web, %w{graham.li}
 
 set :deploy_to, '/srv/apps/gramsey'
 
@@ -33,7 +33,7 @@ set :deploy_to, '/srv/apps/gramsey'
 #
 # And/or per server (overrides global)
 # ------------------------------------
- server '104.236.210.129',
+ server 'graham.li',
    user: 'deploy',
    roles: %w{web},
    ssh_options: {
